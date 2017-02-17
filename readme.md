@@ -42,7 +42,7 @@ dpp ("plain text");
 ```
 ![rendered](https://github.com/tgregoneil/go-json2html/blob/master/testGo2Html.png) 
 
-If npm is not rendering the image depicting the result of the example conversion, it
-can seen at the github repository or <a href='https://github.com/tgregoneil/go-json2html/blob/master/testGo2Html.png'>here</a>
+If npm is not rendering the image depicting the result of the example conversion, this readme file
+can seen at the <a href='https://github.com/tgregoneil/go-json2html'>github repository</a> or the <a href='https://github.com/tgregoneil/go-json2html/blob/master/testGo2Html.png'>direct image link</a>
 
 
