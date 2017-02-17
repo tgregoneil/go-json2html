@@ -42,5 +42,4 @@ dpp ("plain text");
 ```
 
 renders:
- 
-<span id="i0" style="border: 1px solid blue;border-radius: 4px;background-color: #ccffcc;"><label id="i1">test go-json2html</label></span><br id="i2">plain text
+![rendered](https://github.com/tgregoneil/go-json2html/blob/master/testGo2Html.png) 
