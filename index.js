@@ -64,8 +64,6 @@ _.displayPageH = (parent, dispOb) => {
 
             } else {
                 
-                parent = dispOb.hasOwnProperty ('parent') ? dispOb.parent : parent;
-            
                 var attrs = {};
                 var elementName = null;
                 var content;
@@ -79,9 +77,8 @@ _.displayPageH = (parent, dispOb) => {
                     var tagType = _.getTagType (ky);
         
                     var styleInHead = parent === 'head' && ky === 'style';
-                        // style can be attribute or element
-                        // regarded as element, if in head section
-                        // otherwise regarded as an attribute
+                        // style in head => html element
+                        // style not in head => attribute of dispOb
                         
                     var tagNotStyle = tagType !== 0 && ky !== 'style';
         
@@ -162,7 +159,7 @@ _.displayPageH = (parent, dispOb) => {
         } else {
     
             Id = null;
-                // case for dispOb as an empty object
+                // case for dispOb as an empty object or empty array
     
         } // end if (isNEObject)
 
