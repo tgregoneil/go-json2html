@@ -1,10 +1,10 @@
 {
   "name": "go-json2html",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "test.js"
+    "test": "test.html"
   },
   "keywords": [],
   "author": "T. Greg O'Neil <go22.npm@gmail.com> (http://tgregoneil.com)",
