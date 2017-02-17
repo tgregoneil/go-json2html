@@ -41,5 +41,4 @@ dpp ({br: 0});
 dpp ("plain text");
 ```
 
-renders:
 ![rendered](https://github.com/tgregoneil/go-json2html/blob/master/testGo2Html.png) 
