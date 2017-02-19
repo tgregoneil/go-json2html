@@ -64,6 +64,8 @@ _.displayPageH = (parent, dispOb) => {
 
             } else {
                 
+                parent = dispOb.hasOwnProperty ('parent') ? dispOb.parent : parent;
+
                 var attrs = {};
                 var elementName = null;
                 var content;
