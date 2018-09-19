@@ -1,6 +1,6 @@
 {
   "name": "go-json2html",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "Renders html from json and less syntactically rigid javascript objects",
   "main": "index.js",
   "scripts": {

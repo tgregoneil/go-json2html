@@ -1,6 +1,8 @@
  
 ### go-json2html 
 
+DEPRECATED: use go-j2h, instead
+
 Converts objects, arrays and primitives into html. An 'html-object' is an object
 that has a key that is a valid html tag and is converted into the corresponding html 
 element. This key is referred to as the 'tag-key'. The remaining keys/values of 
@@ -11,8 +13,7 @@ Arrays are interpreted as corresponding sequences of html elements.
 Primitives that are values of tag-keys are stringified and appended to 
 the html tag-key.
 
-Any arbitrary html structure can be rendered with arbitrarily deep nesting. Thank
-you, recursion.
+Any arbitrary html structure can be rendered with arbitrarily deep nesting. 
 
 A 'cmd-object' is an object that has one of the command keys: 
     'empty': empties the html element, but leaves the element itself in place
